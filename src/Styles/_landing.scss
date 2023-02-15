@@ -1,0 +1,103 @@
+.landing-page {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+}
+
+.landing-planet {
+    height: 80%;
+}
+
+.landing-descrip-name {
+    font-weight: 900;
+    font-size: 5em;
+    margin: 0;
+    color: peru;
+    line-height: 0.6em;
+    letter-spacing: -2px;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family;
+}
+
+.landing-background {
+    position: absolute;
+    height: 100%;
+    background: radial-gradient(at 50% 100%,
+            #873740 0%,
+            #272730 40%,
+            #b5d1e2 80%,
+            #b5d1e2 100%);
+    width: 100%;
+}
+
+.layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(63, 12, 88, 0.25) 0%, transparent 100%);
+    pointer-events: none;
+}
+
+.white-line {
+    width: 100%;
+    margin-top: 3em;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+}
+
+.loading-line {
+    position: absolute;
+    top: $loading-line-top;
+    left: $loading-line-left;
+    height: $loading-line-height;
+    width: $loading-line-width;
+    z-index: $loading-line-z-index;
+    pointer-events: none;
+}
+
+.loading-left {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: $loading-left-color;
+    clip-path: polygon(100% 0, 0% 100%, 0 0);
+    z-index: 100;
+    pointer-events: none;
+}
+
+.loading-right {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: $loading-right-color;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    z-index: 100;
+    pointer-events: none;
+}
+
+.loading-holders {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.landing-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

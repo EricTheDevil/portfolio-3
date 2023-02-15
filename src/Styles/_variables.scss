@@ -1,0 +1,76 @@
+// Color Variables
+$primary-color: #0072c6;
+$secondary-color: #9dd9f9;
+$accent-color: #8bb7f9;
+$background-color: #b5e2f9;
+$text-color: #222;
+$border-color: #0072c6;
+$loading-left-color: #8bb7f9;
+$loading-right-color: #0072c6;
+$header-background-color: #b5e2f9;
+$header-text-color: #0072c6;
+
+$harmonic-color-1: #47b8f9;
+$harmonic-color-2: #00a4c6;
+$harmonic-color-3: #005896;
+$harmonic-color-4: #b8d9f9;
+$harmonic-color-5: #00b8e2;
+$harmonic-color-6: #0096c6;
+$harmonic-color-7: #b5f9e2;
+$harmonic-color-8: #96c600;
+$harmonic-color-9: #f9b8b5;
+
+$highlight-color: #FF6F61;
+$links-highlight-color: #9B4F96;
+// Font Variables
+$font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+
+// Animation Variables
+$opacity-pulse-duration: 2s;
+$opacity-pulse-timing: ease-out;
+$opacity-pulse-iterations: infinite;
+
+// Size Variables
+$header-height: 3rem;
+$header-padding: 1rem;
+$header-text-size: 1rem;
+$button-padding: 1rem 2rem;
+$font-size-h1: 3rem;
+$font-size-p: 3rem;
+$font-size-heading: 3rem;
+$font-size-projects-title: 50px;
+$font-size-projects-description: 20px;
+$font-size-projects-icon: 18px;
+$font-size-attribution: 1rem;
+
+// Other Variables
+$border-radius: 4px;
+$letter-spacing: 0.1em;
+$text-transform: uppercase;
+$loading-line-top: 0%;
+$loading-line-left: 0%;
+$loading-line-height: 100vh;
+$loading-line-width: 100vw;
+$loading-line-z-index: 101;
+
+// Shadow Variables
+$header-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+$card-shadow: 0px 0px 10px rgba(253, 253, 251, 0.726);
+$hover-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+// Transition Variables
+$header-transition: 0.3s ease-in-out;
+$card-transition: 0.5s ease-in-out;
+
+// Spacing Variables
+$header-margin-bottom: 1rem;
+$header-margin-top: 1rem;
+$card-margin: 1rem;
+
+// Responsive Variables
+$responsive-breakpoint: 720px;
+$breakpoint-tablet: 768px;
+
+// Z-index Variables
+$header-z-index: 100;
+$card-z-index: 99;

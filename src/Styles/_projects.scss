@@ -1,0 +1,114 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $border-color;
+    padding: 5rem;
+    ;
+}
+
+.projects__title {
+    margin-top: $header-margin-top;
+    font-size: $font-size-projects-title;
+    font-weight: bold;
+    text-align: center;
+    font-family: $font-family;
+    letter-spacing: $letter-spacing;
+    text-transform: uppercase;
+    color: $primary-color;
+}
+
+.projects__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: $header-margin-top;
+}
+
+.projects__card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: $card-margin;
+    overflow: hidden;
+    box-shadow: $card-shadow;
+    transition: $card-transition;
+    z-index: $card-z-index;
+
+    @media (max-width: $breakpoint-tablet) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.projects__card:hover {
+    box-shadow: $hover-shadow;
+    cursor: pointer;
+}
+
+.projects__card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projects__card-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $highlight-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: $card-transition;
+}
+
+.projects__card--hovered .projects__card-info {
+    opacity: 1;
+}
+
+.projects__card-title {
+    margin-top: $header-margin-top;
+    font-size: $font-size-projects-description;
+    font-weight: bold;
+    text-align: center;
+    font-family: $font-family;
+    letter-spacing: $letter-spacing;
+    text-transform: uppercase;
+    color: $secondary-color;
+}
+
+.projects__card-description {
+    margin-top: $header-margin-top;
+    font-size: $font-size-projects-description;
+    text-align: center;
+    font-family: $font-family;
+    letter-spacing: $letter-spacing;
+    color: $text-color;
+}
+
+.projects__card-links {
+    margin-top: $header-margin-top;
+    display: flex;
+}
+
+.projects__card-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background-color: $harmonic-color-9;
+    border-radius: $border-radius;
+    color: $text-color;
+    font-size: $font-size-projects-icon;
+
+    &:hover {
+        background-color: $links-highlight-color;
+        border: 1px solid $harmonic-color-3;
+    }
+}

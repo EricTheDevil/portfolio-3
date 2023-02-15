@@ -1,0 +1,46 @@
+.experience {
+	color: $text-color;
+	padding: 5rem;
+
+	&-heading {
+		font-size: $font-size-h1;
+		font-family: $font-family;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	&-title {
+		font-size: $font-size-projects-title;
+		font-family: $font-family;
+		margin-bottom: 1rem;
+	}
+
+	&-description {
+		font-size: $font-size-projects-description;
+		font-family: $font-family;
+		max-height: 5rem;
+		overflow: hidden;
+		transition: max-height 0.5s ease-in-out;
+
+		&--expanded {
+			max-height: 100%;
+		}
+	}
+
+	&-showMoreButton {
+		display: block;
+		margin: 1rem auto;
+		padding: 0.5rem 1rem;
+		background-color: $primary-color;
+		color: $text-color;
+		font-family: $font-family;
+		border: none;
+		border-radius: 0.3rem;
+		cursor: pointer;
+		transition: background-color 0.2s ease-in-out;
+
+		&:hover {
+			background-color: darken($primary-color, 10%);
+		}
+	}
+}
