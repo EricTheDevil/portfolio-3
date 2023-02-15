@@ -91,8 +91,8 @@ const projects = [
         title: "Third portfolio",
         description: "My current portfolio demo",
         image: "/Images/project_01.jpg",
-        website: "https://ericthedevil-portfolio1.netlify.app/",
-        repository: "",
+        website: "https://ericthedevil-portfolio-3.netlify.app/",
+        repository: "https://github.com/EricTheDevil/portfolio-3",
         technologies: "JS, React, R3F, GSAP, Sass, Git"
     },
     {
