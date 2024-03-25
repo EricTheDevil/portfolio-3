@@ -218,7 +218,7 @@ const experiences = [
         id: 1,
         title: "Intern",
         company: "Vertigo Creative Studio Belgium",
-        time: "2016 - 2016",
+        time: "03/2016 - 04/2016",
         shortDescription: "1-2 month, Custom Wordpress theme developer",
         technologies: "Php, FileZilla, Wordpress",
         description: [
@@ -228,9 +228,9 @@ const experiences = [
     },
     {
         id: 2,
-        title: "Software Engineer (Intern)",
+        title: "Software Engineer",
         company: "Pilvia Oy",
-        time: "2019 - 2019",
+        time: "01/2019 - 06/2019",
         shortDescription: "3 Months, Assist team lead, develop new components.",
         technologies: "Typescript, Angular, NodeJS, Kubernetes, Docker, Git, Trello",
         description: [
@@ -240,9 +240,9 @@ const experiences = [
     },
     {
         id: 3,
-        title: "Software Engineer (Intern)",
+        title: "Software Engineer",
         company: "Turku University of Applied Sciences",
-        time: "2019 - 2020",
+        time: "06/2019 - 05/2020",
         shortDescription: "1 year, Develop components for fully custom drupal, attend important meetings",
         technologies: "Drupal, VMWare, Node.JS, BitBucket, Trello",
         description: [
@@ -253,9 +253,9 @@ const experiences = [
     },
     {
         id: 4,
-        title: "Research Assistant (Course)",
+        title: "Research Assistant",
         company: "Turku University of Applied Sciences",
-        time: "2020 - 2020",
+        time: "06/2020 - 06/2020",
         shortDescription: "5 months, Create a network solution for the digital twin",
         technologies: "C#, Unity, BitBucket, OculusVR, Trello",
         description: [
@@ -268,9 +268,9 @@ const experiences = [
     },
     {
         id: 5,
-        title: "Game Developer (Intern)",
+        title: "Game Developer",
         company: "Turku Game Lab",
-        time: "2020 - 2020",
+        time: "06/2020 - 08/2020",
         shortDescription: "3 months, Develop and update components XR mobile game",
         technologies: "C#, Unity, BitBucket",
         description: [
@@ -284,7 +284,7 @@ const experiences = [
     {
         id: 6,
         title: "Systems Engineer",
-        company: "Paperboards Studio (Start up)",
+        company: "Paperboards Studio",
         time: "2021 - present",
         shortDescription: "Manage the infrastructure and security",
         technologies: "C#, Unity, Git, Jira, Confluence",
@@ -298,18 +298,32 @@ const experiences = [
     },
     {
         id: 7,
-        title: "Junior Software Developer",
-        company: "Integrify -> (Auga Technologies)",
-        time: "2022 - present",
-        shortDescription: "Subcontractor, Develop native iOS and Android features.",
-        technologies: "Objective-C, Java, X-Code, AndroidStudio, JavaSE, Jira, Confluence",
+        title: "iOS Developer",
+        company: "Auga Technologies",
+        time: "03/2022 - 03/2023",
+        shortDescription: "Develop native iOS functionality.",
+        technologies: "Objective-C, X-Code, JavaSE, Jira, Confluence, Gerrit",
         description: [
-            "• Work as a subcontractor under ISO27001 guidelance (trained and passed).",
-            "• Work on native functionalities with custom servers",
+            "• Work on native functionalities with custom servers for very customizeable data",
             "• Create functionalities for new and older devices with backwards maintainability kept in mind",
+            "• Ensure good functionality for offline, rural, mobile and different regions.",
             "• Work closely with QA members and address their concerns",
             "• Participated in weekly scrums to plan upcoming weeks task",
-            "• Assist team members.",
+        ]
+    },
+    {
+        id: 8,
+        title: "Software Developer",
+        company: "Fluido",
+        time: "05/2023 - present",
+        shortDescription: "Consultant as a salesforce developer.",
+        technologies: "LWC, Mobile, Bitbucket, SFDX, Javascript",
+        description: [
+            "• Salesforce developer specializing in Lightning Web Components (LWC) and Experience Cloud.",
+            "• Proficient in Salesforce integrations, adept at linking diverse systems for enhanced functionality. ",
+            "• Flexible team player, adapting to various teams and projects with a focus on development excellence. ",
+            "• Skilled in customizing Salesforce solutions to meet varied project requirements. Committed to creating scalable and maintainable Salesforce applications, ensuring long-term success.",
+            "• Take leadership of teams and facilitate communication and progress points for stakeholders",
         ]
     }
 ];
